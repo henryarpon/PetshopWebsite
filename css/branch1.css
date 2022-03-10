@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Overall */
+
+/*Overall End  */
+
+/* Header */
+.header {
+	background-image: url("logobg.jpg");
+	background-position: 60px;
+}
+.header img {
+	height: 100px;
+	width: 200px;
+	padding-left: 40%;
+}
+/* Header Ending */
+
+form.example input[type=text] {
+	padding: 15px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+
+/* Style the submit button */
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 15px;
+	background: white;
+	color: black;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.menu {
+	font-size: 18px;
+	font-family: Consolas;
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: black;
+	border-radius: 50px;
+	display: inline-block;
+	width: 95%;
+}
+
+li {
+	float: left;
+}
+
+/* Body */
+body {
+	background-color: #dfd3d3;
+}
+/* End Body */
+
+/* Footer Start */
+
+.footer {
+	background-color: #b8b0b0;
+}
+
+.footer .section {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.footer .section ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.footer .section ul li {
+	float: left;
+	width: 240px;
+	height: 190px;
+}
+
+.footer .section ul li img {
+	position: absolute;
+	top: 0;
+}
+
+.footer .section ul li h2 {
+	position: relative;
+	top: 6px;
+	left: 0;
+	z-index: 10;
+	padding: 0 10px 0 15px;
+	margin: 20px 0 -15px 0;
+}
+
+.footer .section ul li h2 {
+	font-family: "Myriad Pro", Arial;
+	font-size: 15px;
+	top: 50px;
+	color: rgb(243, 74, 74);
+	font-weight: bold;
+	text-align: left;
+}
+
+.footer .section ul li p {
+	position: relative;
+	top: 70px;
+	padding: 0 10px 0 15px;
+	z-index: 10;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+}
+
+.footer .section ul li p a {
+	color: #ffffff;
+}
+
+.footer .section ul li p a:hover {
+	color: black;
+}
+
+.footer .section ul li p a.more {
+	color: black;
+}
+
+.footer .section ul li p a.more:hover {
+	color: white;
+}
+
+.footer .footnote {
+	background-color: #7c7575;
+}
+
+.footer .footnote .section {
+	width: 960px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Myriad Pro";
+	font-size: 13px;
+}
+
+.footer .footnote .section a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer .footnote .section a:hover {
+	color: #ffffff;
+}
+
+/* Footer End */
+
+/* Pets Dropdown */
+
+li a,
+.dropbtn-pets {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover,
+.pets-pets:hover .dropbtn-pets {
+	background-color: gray;
+	border-radius: 50px;
+}
+
+li.pets-pets {
+	display: inline-block;
+}
+
+.content-pets {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.content-pets a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.content-pets a:hover {
+	background-color: #f1f1f1;
+}
+
+.pets:hover .content-pets {
+	display: block;
+}
+/* Pets Dropdown End */
+
+/* Treats Dropdown */
+li a,
+.dropbtn-treats {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover,
+.treats:hover .dropbtn-treats {
+	background-color: lightcoral;
+}
+
+li.treats {
+	display: inline-block;
+}
+
+.content-treats {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.content-treats a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.content-treats a:hover {
+	background-color: #f1f1f1;
+}
+
+.treats:hover .content-treats {
+	display: block;
+}
+
+.icon {
+	margin: 15px;
+	font-size: 20px;
+}
+
+.button {
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: lightslategray;
+}
+/* Treats Dropdown End*/
+
+/* Content */
+
+/* .column1 {
+	float: left;
+	width: 50%;
+	padding: 50px;
+} */
+
+/* .column1 pre {
+	background-color: #7c7575;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 22px;
+	font-family: 'Times New Roman';
+	color: white;
+} */
+
+/* Content */
+
+/* Edited Part  */
+
+/* article  as Flex container */
+article {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+	justify-content: space-around;
+}
+
+/* item inside article flex container */
+.section1 {
+	background-color: #7c7575;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 22px;
+	font-family: 'Varela', sans-serif;
+	padding: 15px;
+	color: white;
+	width: 60%;
+	text-align: center;
+}
+
+/* image above the about us text  */
+.secimg1 {
+	width: 150px;
+	height: 100px;
+}
+
+.abouttext {
+	margin: 20px 0 80px;
+}
+
+/* member photo's flex container */
+.members {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* member's flex items */
+.members img {
+	width: 230px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+/* .column1 img {
+	padding-left: 40%;
+}
+
+.column1 pre .contact {
+	padding-right: 100%;
+}
+
+/* .column2 {
+	float: right;
+	width: 33.33%;
+	padding: 15px;
+} */
+
+/* second item inside article flex container */
+.section2 {
+	background-color: #7c7575;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+	font-family: 'Times New Roman';
+	color: white;
+}
+
+.section2 div {
+	margin: 5px;
+	text-align: center;
+}
+
+/* .column2 .item1 {
+	padding-right: 50px;
+}
+.column2 .item1 img {
+	border-radius: 20px;
+} */
+
+/* .column2 .item1 .button {
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: lightslategray;
+} */
+
+/* .column2 pre .contact {
+	padding-right: 100%;
+} */
+/* Clear floats after the columns */
+/* .row:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
+
+/* Content End */

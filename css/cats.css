@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Header */
+.header{
+    background-image: url("logobg.jpg");
+    background-position: 60px;
+  }
+  .header img{
+    height:100px; 
+    width:200px;
+    padding-left: 40%;
+  }
+  /* Header Ending */
+
+form.example input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  font-size: 18px;
+  font-family: Consolas;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 50px;
+  display:inline-block;
+  width: 95%;
+}
+
+li {
+  float: left;
+}
+
+
+/* Pets */
+li a, .dropbtn-pets 
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .pets-pets:hover .dropbtn-pets 
+{
+  background-color: gray;
+  border-radius: 50px;
+}
+
+li.pets-pets 
+{
+  display: inline-block;
+}
+
+.content-pets 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content-pets a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.content-pets a:hover 
+{
+  background-color: #f1f1f1;
+}
+
+.pets:hover .content-pets 
+{
+  display: block;
+}
+
+
+/* Treats */
+li a, .dropbtn-treats 
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .treats:hover .dropbtn-treats 
+{
+  background-color: lightcoral;
+}
+
+li.treats 
+{
+  display: inline-block;
+}
+
+.content-treats 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content-treats a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.content-treats a:hover 
+{
+  background-color: #f1f1f1;
+}
+
+.treats:hover .content-treats 
+{
+  display: block;
+}
+
+.icon
+{
+  margin: 15px;
+  font-size: 20px;
+}
+
+
+div.gallery 
+{
+    border: 1px solid #ccc;
+}
+  
+div.gallery:hover 
+{
+    border: 1px solid #777;
+}
+  
+div.gallery img 
+{
+    width: 100%;
+    height: auto;
+}
+  
+div.desc 
+{
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+div.desc2
+{
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+.price
+{
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+  
+.button 
+{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 
+{
+  background-color: rgb(253, 36, 108);
+} 
+* 
+{
+    box-sizing: border-box;
+}
+  
+.responsive 
+{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    padding-bottom: 10px;
+    
+}
+  
+@media only screen and (max-width: 700px) 
+{
+    .responsive 
+    {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) 
+{
+    .responsive 
+    {
+      width: 100%;
+    }
+}
+  
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.about
+{
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
